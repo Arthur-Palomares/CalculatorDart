@@ -6,6 +6,7 @@ class Memory{
       _allClear();
     }else {
       _value += command;
+
     }
   }
 
