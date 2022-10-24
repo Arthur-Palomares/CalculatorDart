@@ -38,6 +38,7 @@ class Memory {
   }
 
   _setOperation(String newOperation) {
+    print(_operation);
     bool isEqualSign = newOperation == '=';
     if(_bufferIndex == 0){
       if (!isEqualSign) {
@@ -56,6 +57,7 @@ class Memory {
     }
     _wipeValue = true;
     //_wipeValue = !isEqualSign - Reutilizar o número no display
+
 
   }
 

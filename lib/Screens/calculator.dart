@@ -27,8 +27,9 @@ class _CalculatorState extends State<Calculator> {
     return MaterialApp(
       home: Column (
         children: <Widget> [
-          Display(memory.value),
+          Display(memory.value.toString()),
           Keyboard(_onPressed),
+
         ],
       )
     );
